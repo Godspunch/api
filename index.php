@@ -1,7 +1,4 @@
 <?php
-    require("model.php");
-    $products = new Model;
-    $allproducts = $products->getData();
-
-    require("view.php");
-
+    require("controller.php");
+    $controller = new Controller;
+    $controller->index();
