@@ -1,0 +1,1 @@
+It's will be individual product view page
